@@ -15,17 +15,16 @@ public class Main {
         ArrayList<String> A = new ArrayList<>(bound);
         for (int i = 0; i < bound; i++) {
             A.add(scanner.next());
-            Collections.sort(A);
         }
+        Collections.sort(A);
         print(A);
 
         System.out.println("Введите данные для второго списка: ");
         ArrayList<String> B = new ArrayList<>();
         for (int i = 0; i < bound; i++) {
             B.add(scanner.next());
-            Collections.sort(B);
-            Collections.reverse(B);
         }
+        Collections.reverse(B);
         print(B);
 
 
