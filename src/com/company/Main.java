@@ -28,6 +28,7 @@ public class Main {
         }
         print(B);
 
+
         System.out.println("______________________________");
 
         ArrayList<String> C = new ArrayList<>();
@@ -39,8 +40,8 @@ public class Main {
         }
         print(C);
 
-        System.out.println("______________________________");
 
+        System.out.println("______________________________");
 
         Collections.sort(C, new Comparator<String>() {
             @Override
@@ -51,13 +52,6 @@ public class Main {
 
         print(C);
 
-
-      /* Collections.addAll(words);
-        Iterator<String> printWords = words.iterator();
-        while (printWords.hasNext()){
-            words.add(inputWords);
-            System.out.println(printWords.next());
-        }*/
     }
 
     static void print(ArrayList list) {
